@@ -17,6 +17,9 @@ The theory is that with a little bit of extra support in the second semester, th
 # Data
 The data is from students at a single middle school in the 2018-2019 school year. I received written permission from the school leader to use this student data for this project. All identifying information was removed in order to comply with FERPA student privacy guidelines. 
 
+# Collab Link
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amtan20/predictSBAC/blob/main/Final_Modeling_Notebook.ipynb)
+
 # Algorithms 
 I searched for algorithms in two ways. First, I did a randomized cross validation search across 9 classification algorithms to see which had the highest precision - it found Extra Trees Classifier to be the best. It only returns one best model, so I did a second search with the same 9 algorithms to find two other candidate models. To do this, I looped through the algorithms, fit each algorithm 100 times, and calculated the average precision and accuracy scores. Logistic Regression and Extra Trees Classifier were in the top 3 for both precision and accuracy. It was reassuring that Extra Trees Classifier came up as a top model in both search processes. Since I care more about precision, I selected SGDC Classifier as my third candidate algorithm, since it was the top performing algorithm for precision. 
 
