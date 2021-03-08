@@ -46,4 +46,6 @@ Extra Trees | 0.860 | 0.877
 The features that were most important for making predictions 
 
 # Limitations of the Model & Future Directions 
+- Retrain the model using only data from Q2 and Q3 students
+- Obtain data from multiple years. Data in this project was from a single school year. 
 
