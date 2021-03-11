@@ -14,7 +14,8 @@ The model uses student demographic information and assessment data from the firs
 The data is from students at a single middle school in the 2018-2019 school year. I received written permission from the school leader to use this student data for this project. All identifying information was removed in order to comply with FERPA student privacy guidelines. 
 
 # Collab Link
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amtan20/predictSBAC/raw/blob/main/Final_Notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amtan20/predictSBAC/blob/main/Final_Notebook.ipynb)
+
 
 # Evaluation Metrics 
 I focused on 2 metrics: precision and accuracy
