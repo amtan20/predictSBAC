@@ -66,6 +66,9 @@ Train | 0.939 | 0.872
 **The model's accuracy beats the a priori probability**
 <br> The model's accuracy of 0.88 is well above the a priori probability of 0.66, but there is still room for improvement.
 
+**Areas for improvement**
+<br> There is a big gap in the model's precision for class 0 (fail) and class 1 (pass). I would like to improve the model's ability to minimize false negatives, thereby improving overall accuracy.
+
 # Future Directions 
 - Retrain the model using only data from Q2 and Q3 students
 - Obtain data from multiple years. Data in this project was from a single school year. 
