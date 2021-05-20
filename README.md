@@ -1,5 +1,5 @@
 # predictSBAC
-Final Project for MSDS699 Machine Learning Laboratory
+Building a machine learning model to predict student performance on standardized tests 
 
 YouTube Presentation: https://youtu.be/YlgqatCPuaE 
 
